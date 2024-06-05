@@ -26,7 +26,7 @@ const ExpensesByCategory = () => {
 
       <CategoriesList>
         {expensesByCategory.map((element, index) => {
-          const {category, amount, id} = element
+          const {category, amount} = element
           console.log(category, amount)
           return(
             <CategoriesListElement key={index}>
