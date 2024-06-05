@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
- 
+
 :root {
     font-size: 12px;
 }
 
 body {
-    background: #F9F9F9;
+    background: #272727;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -20,8 +20,10 @@ body {
 #root {
     width: 100%;
 }
- 
-@media screen and (max-width: 60rem){ /* 950px */
+
+@media screen and (max-width: 60rem) {
+
+    /* 950px */
     :root {
         font-size: 14px;
     }
